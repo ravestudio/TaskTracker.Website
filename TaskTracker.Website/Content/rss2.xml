@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<channel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Items>
+    <Item>
+      <key>100</key>
+      <summary>simple task</summary>
+    </Item>
+    <Item>
+      <key>102</key>
+      <summary>simple task 2</summary>
+    </Item>
+  </Items>
+</channel>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<channel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Items>
+
+	<item>
+	<key>IKEASUPPOR-958</key>
+	<summary>
+	Изменить в основном XML для Альты для поставок UA/RS/MD содержание Тэга EOTHERFLD:
+	</summary>
+	</item>
+
+	<item>
+	<key>IKEASUPPOR-957</key>
+	<summary>Report: LetterForReroute</summary>
+	</item>
+
+	<item>
+	<key>IKEASUPPOR-956</key>
+	<summary>All weighing Task: оптимизация</summary>
+	</item>
+
+</Items>
+</channel>

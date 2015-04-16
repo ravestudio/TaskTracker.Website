@@ -1,0 +1,20 @@
+﻿@model List<TaskTracker.Common.Entities.Issue>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@foreach(TaskTracker.Common.Entities.Issue issue in Model)
+{
+    <div class="row">
+        <div class="column">@issue.Id</div>
+        <div class="column">@issue.IssueNumber</div>
+        <div class="doubleColumn">@issue.Title</div>
+        <div class="column">@issue.Status.Name</div>
+        <div class="column">@if (issue.Release != null) {@issue.Release.Number}</div>
+        <div class="column">@Html.ActionLink("Edit", "Edit", new { id = issue.Id }, null)</div>
+    </div>
+}
+
